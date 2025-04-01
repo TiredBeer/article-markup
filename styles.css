@@ -1,30 +1,33 @@
-h1 {
-    font-family: Arial, serif;
-    font-size: 42px;
-    line-height:44px;
+nav img{
+    width: 97px;
+    margin: 10px auto 10px 38px;
 }
-
-h2 {
-    font-family: Arial, monospace;
-    font-size: 34px;
-    line-height: 39px;
+header{
+    padding: 0;
+    margin: 0;
+    background-color: #faf9f8;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
 }
-
-code {
-    background-color: #f0f0f0;
-    padding: 3px;
-    border-radius: 5px;
-    font-family: Arial, monospace;
-    color: black;
+header ul{
+    list-style: none;
 }
-
-.paragraph {
-    margin: 0 0 0 362px;
-    text-align: left;
-    font-family: Georgia, monospace;
-    line-height:33px;
-    font-size: 21px;
-    width: 700px;
+header li{
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"),
+    auto;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-left: 30px;
+    display: inline;
+}
+header li:hover{
+    text-decoration:underline;
+}
+.red {
+    color: red;
 }
 
 
