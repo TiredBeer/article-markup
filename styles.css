@@ -1,4 +1,32 @@
-/* Тут пиши основные стили */
+h1 {
+    font-family: Arial, serif;
+    font-size: 42px;
+    line-height:44px;
+}
+
+h2 {
+    font-family: Arial, monospace;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+code {
+    background-color: #f0f0f0;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: Arial, monospace;
+    color: black;
+}
+
+.paragraph {
+    margin: 0 0 0 362px;
+    text-align: left;
+    font-family: Georgia, monospace;
+    line-height:33px;
+    font-size: 21px;
+    width: 700px;
+}
+
 
 
 @media (max-width: 800px) {
